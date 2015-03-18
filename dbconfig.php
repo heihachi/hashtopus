@@ -1,8 +1,8 @@
 <?php
-$dbhost="dbserver:3306";
-$dbuser="dbuser";
-$dbpass="dbpass";
-$dbname="dbname";
+$dbhost="mysql.heihachi.pw";
+$dbuser="heihachi";
+$dbpass="truewow1";
+$dbname="hashtopus";
 $dblink = @mysqli_connect($dbhost,$dbuser,$dbpass,$dbname) or die("Error " . mysqli_connect_error($dblink));
 $separator="\x01";
 $sess_name="auth";
