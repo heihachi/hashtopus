@@ -1,7 +1,7 @@
 <?php
-$dbhost="mysql.heihachi.pw";
-$dbuser="heihachi";
-$dbpass="truewow1";
+$dbhost="";
+$dbuser="";
+$dbpass="";
 $dbname="hashtopus";
 $dblink = @mysqli_connect($dbhost,$dbuser,$dbpass,$dbname) or die("Error " . mysqli_connect_error($dblink));
 $separator="\x01";
